@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>고객의 소리</h1>
+   <form name="input" action="" method="post">
+        아이디: <input type="text" name="name">  <br >
+        구매번호: <input type="text" name="number" size=10/>  <br >
+        패스워드: <input type="password" name="pass">  <br >
+        <form name="input" action="getfeedback.jsp" method="get"> <br>
+        제품을 평가해주세요 <br>
+        <textarea name="feedback" rows="5" cols="50"></textarea> <br>
+        <input type="reset" name="reset" value="reset">
+        <input type="submit" name="submit" value="제출"/>
+        <!--reset과 submit의 차이는 reset는 페이지 새로고침 없이 값이 초기화 되지만 
+        sumbit의 경우 페이지 전체가 새로고침된다-->
+    </form>
+</body>
+</html>
